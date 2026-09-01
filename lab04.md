@@ -2,7 +2,7 @@
 
 ## Q1. Proof-of-Work Target
 
-The target has roughly **19 leading zero hexadecimal digits**, which corresponds to about **76 leading zero bits** because each hexadecimal digit represents 4 bits. Therefore, finding one valid block header requires roughly **2^76 hash attempts on average**.
+The target has roughly 19 leading zero hexadecimal digits, which corresponds to about 76 leading zero bits because each hexadecimal digit represents 4 bits. Therefore, finding one valid block header requires roughly 2^76 hash attempts on average.
 
 ## Q2. Why is PoW verification much faster than finding a valid block?
 
@@ -14,7 +14,7 @@ The transaction was included on the 2024 Bitcoin halving day, when the launch of
 
 ## Q4. Where does the difference in the coinbase output come from?
 
-The difference comes from the **transaction fees** collected from the transactions included in the block. Therefore, the miner's total reward consists of the **block subsidy plus transaction fees**.
+The difference comes from the transaction fees collected from the transactions included in the block. Therefore, the miner's total reward consists of the block subsidy plus transaction fees.
 
 For block #840,000:
 
